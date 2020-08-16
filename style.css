@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header{
+    width: 100%;
+}
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#cosmos > ul {
+    display: inline-flex;
+}
+#cosmos > ul >li{
+    margin-right: 15px;
+    list-style: none;
+}
+#cosmos > ul > li > button{
+    border-radius: 50%;
+    border: none;
+    width: 20px;
+    margin-bottom: 25px;
+    background-color: white;
+    height: 20px;
+    
+}
+.alan{
+    width: 900px;
+    text-align: center;
+    height: 600px;
+}
+.guth{
+    text-align: left;
+    font-size: 13px;
+}
+a:hover {
+    text-decoration: underline;
+  }
+#logo{
+    margin-top: 15px;
+    margin-right:75px;
+}
+#sign-in{
+    margin-right: 40px;
+}
+#sign-in >ul {
+    list-style: none;                                                 
+    display: inline-flex;
+}
+#sign-in >ul >li{
+        margin-right: 8px;             
+}
+#sign-in > ul > li > button{
+    padding: 6px;
+    width: 90px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(104, 136, 158);
+}
+main{
+    width: 100%;
+    position: relative;
+}
+#container{
+    width:100%;
+}
+#space{
+    width: 80%;
+    position: relative;
+    margin: 0em auto;
+
+}
+.name{
+    text-decoration: none;
+    color: black ;
+}
+#social{
+    list-style: none;
+    margin-left: 20px;
+    display: inline-flex;
+}#published{
+    margin-right: 500px;
+}
+.btn{
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+.comment{
+    display: inline-flex;
+    position: relative;
+    margin-left: 15%;
+}
+.comment-button{
+    width: 250px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    border-radius: 4px;
+    background-color:  rgb(104, 136, 158);;
+}
+.icons{
+    margin-right: auto;
+    color: black;
+}
+.btnn{
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: none;
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.a{
+    text-decoration: none;
+}
+#main-article{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+#theory{ 
+    position: relative;  
+    left: 10%;
+    width: 80%;
+}
+#tcontent{
+    display:flex
+}
+#bang{
+    
+    position: relative;
+    width: 50% ;
+}
+#leftop{
+    display: flex;
+}
+.imgtheory{
+    width: 150px;
+    height: 150px;
+
+}
+.smalltext{
+    font-size: 10px;
+}
+#righttop{
+    display: flex;
+}
+#leftbottom{
+    display: flex;
+}
+#rightbottom{
+    display: flex;
+}
+#distant{
+    position: relative;
+    width: 50%;
+        
+}
+#larry{
+    display: flex;
+    width: 80%;
+    position: relative;
+}
+#sociaal{
+    margin-right: auto;
+    position: relative;
+}
+#lastsection{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+}
+.center{
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+}
+.move{
+    text-align: center;
+}
+#morearticles{
+    display: flex;
+    font-size: 15px;
+    
+}
+#astronomy{
+    width: 72%;
+    margin-right: 5px;
+}
+#astronomy h3{
+    font-size: 10px;
+}
+#popular{
+        width:28%;
+}
+#fresh{
+    list-style: none;
+    font-family: times;
+    line-height: 2;
+}
+#fresh li{
+    border-bottom:1px solid #000 ;
+}
+#morearticles  h3{
+    font-size: 12px;
+}
+.bord{
+    border-top: 1px solid#333;
+    
+}
+#box1{
+    display: flex;
+}
+#box1 figcaption{
+    font-size: 9px;
+}
+#box1> img{
+    width:200px;
+    
+}
+#box2{
+    display: flex;
+}
+#box3{
+    display: flex;
+}
+
+.length{
+    width: 180px;
+    height: 150px;
+    margin-right: 5px;
+    display:inline-block
+}
+
+.logo-2{
+    display: inline-flex;
+}
+#home{
+    margin-right: auto;
+}
+.footernav {
+    list-style: none;
+    font-family: sanserif;
+    font-size: 10px;
+    line-height: 2;
+}
+.special{
+    font-size: 15px;
+    display: inline-flexbox;
+    line-height: 0;
+    text-decoration: none;
+    color: black;
+}
+.small{
+    width: 20px;
+    height: 20px;
+}
+.sizee{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+footer{
+    font-size: 10px;
+    font-family: calicbri ,sans-serif;
+}
+footer ul{
+    list-style: none;
+    display: inline-flex;
+
+}
+footer a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:#000;
+}
+.more{
+    display:flex;
+    justify-content: space-evenly;
+    border-top: 1px solid black;
+}#home{
+    margin-left:700px ;
+    position: relative;
+}
